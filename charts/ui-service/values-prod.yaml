@@ -1,0 +1,11 @@
+replicaCount: 2
+
+image:
+  tag: "latest"
+
+service:
+  type: LoadBalancer
+
+env:
+  BOOKING_SERVICE_URL: "http://booking-service:8080"
+  APP_ENV: "prod"

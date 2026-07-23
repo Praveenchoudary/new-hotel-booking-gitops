@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  tag: "latest"
+
+service:
+  type: NodePort
+
+env:
+  BOOKING_SERVICE_URL: "http://booking-service:8080"
+  APP_ENV: "dev"
