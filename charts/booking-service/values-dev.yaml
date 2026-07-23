@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  tag: "latest"
+  tag: "3"
 
 env:
   PAYMENT_SERVICE_URL: "http://payment-service:8080"
