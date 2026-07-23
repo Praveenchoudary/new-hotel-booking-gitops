@@ -4,7 +4,7 @@ image:
   tag: "latest"
 
 service:
-  type: LoadBalancer
+  type: NodePort
 
 env:
   BOOKING_SERVICE_URL: "http://booking-service:8080"
