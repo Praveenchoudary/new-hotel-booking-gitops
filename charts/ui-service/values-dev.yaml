@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  tag: "3"
+  tag: "4"
 
 service:
   type: NodePort
